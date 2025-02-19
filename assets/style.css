@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-color:black ;
+    color: white;
+    font-family:  "Quicksand", serif;
+}´
+h1{
+    font-family: "Fredoka", serif;
+}
+main{
+text-align: center;    
+}
+.parrafos{
+    position: relative;
+    padding: 0 1rem 1rem 1rem;
+    text-align: left;
+}
+.descargar{
+    position: relative;
+    width: 100%;
+    margin: 3rem 0 0 0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.mono{
+    position: absolute;
+    left: -30px;
+    top: -10px;
+    z-index: 2;
+}
+.descargar-btn a{
+    position: relative;
+    z-index: 3;
+    text-decoration: none;
+    color: white;
+    background-color:#F06D9B;
+    padding: 0.8rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4); /* Iluminación constante */
+    transition: all 0.3s ease; /* Transición para suavizar efectos adicionales */
+}
+.img-fluid{
+    max-width: 120px;
+}
+.imagenes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
